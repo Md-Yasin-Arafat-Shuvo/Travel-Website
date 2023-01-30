@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+
+}
+
+.about{
+
+	padding:300px 0px;
+	background: linear-gradient(120deg,#2980b9, #04e3f3);
+
+}
+.about img{
+	height: auto;
+	width: 350px;
+}
+.about-text{
+
+	width: 750px;
+	text-align: justify;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: auto;
+	display: flex;
+	align-items:left;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgba(251, 251, 252, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#0382f8;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #032e57;
+	cursor: pointer;
+}
+
+nav{
+	background-color: rgba(5, 22, 68, 0.822);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 0.5px;
+	padding-left: 8%;
+	padding-right: 8%;
+
+
+	
+}
+.posi{
+	position:fixed;
+	width: 100%;
+}
+.logo{
+	color: rgb(250, 249, 249);
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #0783f8;
+}
+nav ul li{
+	
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: rgb(253, 251, 251);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #000000;
+	transition: .4s;
+}
+.btn{
+	background-color:#0382f8;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+h2{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 65px;
+}
